@@ -6,3 +6,10 @@
         font-family: SourceSansPro-Regular;
         font-weight: 700;
 }
+
+.main_div
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
