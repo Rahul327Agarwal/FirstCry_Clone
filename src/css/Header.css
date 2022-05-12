@@ -1,0 +1,48 @@
+.logo_head {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.search {
+    margin-left: 10px;
+    border: thin ridge rgb(228, 220, 220);
+    height: 30px;
+}
+
+#search_box {
+    width: 350px;
+    padding-left: 15px;
+    border: none;
+}
+
+.second_head {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 100px;
+    /* background-color: aqua; */
+    height: 45px;
+    
+}
+
+.second_head>p {
+    color: #616161; 
+    padding-right:10px;
+    padding-top: 3px;
+    font: 12px Roboto-Regular;
+    border-right-style: groove;
+    margin-right: 10px;
+    border-right-width: thin;
+    font-size:12px;
+}
+
+
+.second_head>p:last-child {
+    border:none;
+}
+
+.main_div {
+    display: flex;
+
+}
