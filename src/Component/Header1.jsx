@@ -2,17 +2,20 @@ import React from 'react'
 import '../css/Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import { Link } from "react-router-dom";
+import { useSelector } from 'react-redux';
 
 const Header1 = () => {
+    const data = useSelector(state => state.items);
     return <>
         <div className="main_div">
 
             <div className="logo_head">
 
                 <div className="lft">
-                    <a href="/">
+                    <Link to="/">
                         <img title="Firstcry.com - Online Baby & Kids Store" src="//cdn.fcglcdn.com/brainbees/images/n/fc_logo.png" alt="logo" />
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="search">
@@ -30,8 +33,9 @@ const Header1 = () => {
                 <p>FirstCry Parenting</p>
                 <p>Login / Register</p>
                 <p>Shortlist</p>
-                <p><AddShoppingCartIcon /> Cart</p>
-                
+                <Link to="/cart">
+                <p><AddShoppingCartIcon /> Cart<span style={{color:"red"}}>    <b style={{fontSize:"24px"}}>{data.length}</b></span></p>
+                </Link>
             </div>
         </div>
 

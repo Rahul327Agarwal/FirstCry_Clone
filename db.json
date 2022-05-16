@@ -1,0 +1,177 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "slider_img_url": [
+    "https://cdn.fcglcdn.com/brainbees/banners/test/HP_MKTG_Buy3_P01_desktop_20225913320.webp",
+    "https://cdn.fcglcdn.com/brainbees/banners/test/MKTGN_HP_DIAPER_12MAY_202251119477.webp",
+    "https://cdn.fcglcdn.com/brainbees/banners/test/BabyhugCCMay_Upto60FS_DPHP_994x399_202251194647.webp",
+    "https://cdn.fcglcdn.com/brainbees/banners/test/HP_MKTG_StealDeal_P04_Desktop_20225913630.webp",
+    "https://cdn.fcglcdn.com/brainbees/banners/test/HP-Banner-994-x-399_2022411104450.webp",
+    "https://cdn.fcglcdn.com/brainbees/banners/test/baby-names_HP-desktop_2022510133557.webp"
+  ],
+  "section_img_url": [
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26611.webp",
+      "price": 100
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26607.webp",
+      "price": 200
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26593.webp",
+      "price": 300
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26610.webp",
+      "price": 400
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26611.webp",
+      "price": 500
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26612.webp",
+      "price": 600
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26597.webp",
+      "price": 700
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26586.webp",
+      "price": 800
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26599.webp",
+      "price": 900
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26588.webp",
+      "price": 700
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26592.webp",
+      "price": 500
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/26596.webp",
+      "price": 450
+    }
+  ],
+  "boys_fashion_img_url": [
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10626194a.webp",
+      "price": 100
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10671728a.webp",
+      "price": 200
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10661617a.webp",
+      "price": 300
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10872331a.webp",
+      "price": 400
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10986914a.webp",
+      "price": 500
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10607942a.webp",
+      "price": 600
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10607905a.webp",
+      "price": 700
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10966282a.webp",
+      "price": 800
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10657915a.webp",
+      "price": 900
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10650495a.webp",
+      "price": 100
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10660477a.webp",
+      "price": 200
+    },
+    {
+      "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10650526a.webp",
+      "price": 400
+    }
+  ],
+  "girls_fashion_img_url": [
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10847836a.webp",
+          "price": 100
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10847751a.webp",
+          "price": 200
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10883628a.webp",
+          "price": 300
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10847817a.webp",
+          "price": 400
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10316025a.webp",
+          "price": 500
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10598394a.webp",
+          "price": 600
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10597896a.webp",
+          "price": 700
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10598358a.webp",
+          "price": 800
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10316008a.webp",
+          "price": 900
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10674236a.webp",
+          "price": 100
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10785608a.webp",
+          "price": 200
+        },
+        {
+          "img_url": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/10740532a.webp",
+          "price": 400
+        }
+  ]
+}

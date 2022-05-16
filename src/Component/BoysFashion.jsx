@@ -1,9 +1,9 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { addtocart } from '../Redux/Cart/action';
 import '../css/Slider.css';
 import { v4 as uuidv4 } from 'uuid';
+import { useDispatch, useSelector } from 'react-redux';
+import { addtocart } from '../Redux/Cart/action';
 
 function Section1() {
     const [imgurl, setImgurl] = useState([]);
@@ -11,7 +11,7 @@ function Section1() {
     const dispatch = useDispatch();
 
     const getdata = () => {
-        fetch('http://localhost:3000/section_img_url')
+        fetch('http://localhost:3000/boys_fashion_img_url')
             .then(res => res.json())
             .then(data => setImgurl(data));
     }
