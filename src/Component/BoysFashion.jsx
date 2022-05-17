@@ -11,7 +11,7 @@ function Section1() {
     const dispatch = useDispatch();
 
     const getdata = () => {
-        fetch('http://localhost:3000/boys_fashion_img_url')
+        fetch('https://my-json-server.typicode.com/Rahul327Agarwal/firstcry_jsonserver/boys_fashion_img_url')
             .then(res => res.json())
             .then(data => setImgurl(data));
     }

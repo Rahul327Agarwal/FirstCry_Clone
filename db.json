@@ -1,21 +1,4 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "slider_img_url": [
     "https://cdn.fcglcdn.com/brainbees/banners/test/HP_MKTG_Buy3_P01_desktop_20225913320.webp",
     "https://cdn.fcglcdn.com/brainbees/banners/test/MKTGN_HP_DIAPER_12MAY_202251119477.webp",
