@@ -13,7 +13,7 @@ function Slider() {
     
     const getdata=()=>
     {
-        fetch('http://localhost:3000/slider_img_url')
+        fetch('https://my-json-server.typicode.com/Rahul327Agarwal/firstcry_jsonserver/slider_img_url')
         .then(res=>res.json())
         .then(data=>setImgurl(data));
     }
